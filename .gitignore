@@ -1,0 +1,6 @@
+build/
+resources/tmp_pics/
+.DS_Store
+
+build-*
+xcuserdata
