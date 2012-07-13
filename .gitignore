@@ -4,3 +4,5 @@ resources/tmp_pics/
 
 build-*
 xcuserdata
+.repl_history
+resources/LibraryView.nib
