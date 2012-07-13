@@ -1,3 +1,6 @@
 [submodule "vendor/OAuth2Client"]
 	path = vendor/OAuth2Client
 	url = git://github.com/nxtbgthng/OAuth2Client.git
+[submodule "vendor/GPUImage"]
+	path = vendor/GPUImage
+	url = https://github.com/BradLarson/GPUImage.git
