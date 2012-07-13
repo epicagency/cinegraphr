@@ -9,8 +9,9 @@ Motion::Project::App.setup do |app|
                      :target => 'OAuth2Client',
                      :headers_dir => 'Sources/OAuth2Client'
                     )
-  app.vendor_project('vendor/GPUImage',
+  app.vendor_project('vendor/GPUImage/framework',
                      :xcode,
+                     :target => 'GPUImage',
                      :headers_dir => 'Source'
                     )
   app.libs << "/usr/lib/libz.dylib"
